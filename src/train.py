@@ -30,7 +30,7 @@ def train_dqn_masked(env,
     # minimal possible epsilon
     eps_min = 0.05
     # decay factor for epsilon
-    eps_decay = 0.995
+    eps_decay = 0.9995
     batch_size = 64
     # list to track total rewards per episode
     rewards_log = []

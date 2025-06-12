@@ -152,7 +152,7 @@ if __name__ == "__main__":
             epsilon=params["epsilon"],
             adv_loss_weight=params["adv_loss_weight"],
             entropy_beta=params["entropy_beta"],
-            real_graph_data=True,
+            # real_graph_data=True,
             num_graphs=50,
             num_nodes=params["num_nodes"],
             num_edges=params["num_nodes"]
