@@ -1,2 +1,8 @@
+#  Python venv
 .venv/
-cache
+
+# cache
+cache/
+
+
+.idea/
